@@ -1,0 +1,1 @@
+This model is trained specifically for XAUUSD
