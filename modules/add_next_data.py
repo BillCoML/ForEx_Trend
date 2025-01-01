@@ -17,7 +17,7 @@ class Add_Data(QMainWindow):
         self.setWindowTitle("Adding New Data")
         #Specify location
         self.resize(200, 300)
-        self.move(1050, 450)
+        self.move(0, 0)
 
         #We need to fill in Date cell with a value
         data = self.controller.read_raw_data()

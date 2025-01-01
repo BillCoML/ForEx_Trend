@@ -12,7 +12,7 @@ class File_Import(QMainWindow):
         self.parent = parent
         self.controller = controller
         self.setWindowTitle("File Import")
-        self.move(1000, 500)
+        self.move(0, 0)
         self.resize(300, 200)
 
         file_label = QLabel("File Path")

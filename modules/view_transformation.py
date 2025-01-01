@@ -19,8 +19,8 @@ class View_Transformed_Data(QMainWindow):
 
         #Set title and dimension
         self.setWindowTitle("View Transformed Data")
-        self.resize(470, 500)
-        self.move(900, 400)
+        self.resize(490, 500)
+        self.move(0, 0)
 
         self.transformed_data_table = QTableView()
         self.transformed_data_model = TransformedDataModel(self.controller)
@@ -46,7 +46,7 @@ class View_Transformed_Data(QMainWindow):
         self.setCentralWidget(widget)
 
         self.transformed_data_model.list_data()
-        self.transformed_data_table.setColumnWidth(0, 100) #Date
+        self.transformed_data_table.setColumnWidth(0, 120) #Date
         self.transformed_data_table.setColumnWidth(1, 100) #High
         self.transformed_data_table.setColumnWidth(2, 100) #Low
         self.transformed_data_table.setColumnWidth(3, 100) #Close

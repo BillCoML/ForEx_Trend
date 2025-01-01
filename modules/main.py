@@ -20,7 +20,7 @@ class FXTrend(QMainWindow):
         ##############################
 
 
-        self.move(1000, 500) #This helps to locate the window at a specific place across the game
+        self.move(0, 0) #This helps to locate the window at a specific place across the game
         self.resize(300, 200)
         layout = QVBoxLayout()
         

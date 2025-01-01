@@ -19,8 +19,8 @@ class View_Predictions(QMainWindow):
 
         #Set title and dimension
         self.setWindowTitle("View Predictions")
-        self.resize(430, 300)
-        self.move(1500, 500)
+        self.resize(450, 300)
+        self.move(500, 0)
 
         self.predicted_data_table = QTableView()
         self.predicted_data_model = PredictedDataModel(predicted_data=predicted_data, controller=self.controller)
@@ -43,7 +43,7 @@ class View_Predictions(QMainWindow):
         self.setCentralWidget(widget)
 
         self.predicted_data_model.list_data()
-        self.predicted_data_table.setColumnWidth(0, 100) #Date
+        self.predicted_data_table.setColumnWidth(0, 130) #Date
         self.predicted_data_table.setColumnWidth(1, 100) #High
         self.predicted_data_table.setColumnWidth(2, 100) #Low
         self.predicted_data_table.setColumnWidth(3, 100) #Close

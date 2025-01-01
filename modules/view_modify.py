@@ -22,7 +22,7 @@ class View_Modify(QMainWindow):
         
         #Specify location
         self.resize(860, 500)
-        self.move(800, 400)
+        self.move(0, 0)
 
         self.raw_data_table = QTableView()
         self.raw_data_model = RawDataModel(self.controller)

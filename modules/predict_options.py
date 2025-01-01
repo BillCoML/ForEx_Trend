@@ -20,7 +20,7 @@ class Predict_Options(QMainWindow):
         self.setWindowTitle("Predict Options")
         #Specify location
         self.resize(200, 300)
-        self.move(1500, 500)
+        self.move(500, 0)
 
         #Note that start index must always be smaller than end index (because the latest data is on top)
         start_label = QLabel("Start Index")
