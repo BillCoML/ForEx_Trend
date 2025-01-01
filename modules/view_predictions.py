@@ -50,7 +50,7 @@ class View_Predictions(QMainWindow):
 
     def go_back_button_clicked(self):
         '''
-        Redirect to Options
+        Redirect to Options=
         '''
         self.hide()
         self.parent.show()
